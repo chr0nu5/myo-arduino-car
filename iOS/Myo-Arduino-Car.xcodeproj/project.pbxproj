@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52608D431ACEC60100AC5ED1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52608D421ACEC60100AC5ED1 /* main.m */; };
+		52608D461ACEC60100AC5ED1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52608D451ACEC60100AC5ED1 /* AppDelegate.m */; };
+		52608D491ACEC60100AC5ED1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52608D481ACEC60100AC5ED1 /* ViewController.m */; };
+		52608D4C1ACEC60100AC5ED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52608D4A1ACEC60100AC5ED1 /* Main.storyboard */; };
+		52608D4E1ACEC60100AC5ED1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52608D4D1ACEC60100AC5ED1 /* Images.xcassets */; };
+		52608D511ACEC60100AC5ED1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52608D4F1ACEC60100AC5ED1 /* LaunchScreen.xib */; };
+		52608D5D1ACEC60100AC5ED1 /* Myo_Arduino_CarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52608D5C1ACEC60100AC5ED1 /* Myo_Arduino_CarTests.m */; };
+		52608D691ACEDA2A00AC5ED1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52608D681ACEDA2A00AC5ED1 /* SystemConfiguration.framework */; };
+		52608D6B1ACEDA3000AC5ED1 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52608D6A1ACEDA3000AC5ED1 /* CoreBluetooth.framework */; };
+		52608D6E1ACEDB4200AC5ED1 /* MyoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52608D6D1ACEDB4200AC5ED1 /* MyoKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52608D571ACEC60100AC5ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52608D351ACEC60100AC5ED1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52608D3C1ACEC60100AC5ED1;
+			remoteInfo = "Myo-Arduino-Car";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52608D3D1ACEC60100AC5ED1 /* Myo-Arduino-Car.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Myo-Arduino-Car.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52608D411ACEC60100AC5ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52608D421ACEC60100AC5ED1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52608D441ACEC60100AC5ED1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52608D451ACEC60100AC5ED1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52608D471ACEC60100AC5ED1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52608D481ACEC60100AC5ED1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52608D4B1ACEC60100AC5ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52608D4D1ACEC60100AC5ED1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52608D501ACEC60100AC5ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52608D561ACEC60100AC5ED1 /* Myo-Arduino-CarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Myo-Arduino-CarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52608D5B1ACEC60100AC5ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52608D5C1ACEC60100AC5ED1 /* Myo_Arduino_CarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Myo_Arduino_CarTests.m; sourceTree = "<group>"; };
+		52608D681ACEDA2A00AC5ED1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		52608D6A1ACEDA3000AC5ED1 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		52608D6D1ACEDB4200AC5ED1 /* MyoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MyoKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52608D3A1ACEC60100AC5ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52608D6E1ACEDB4200AC5ED1 /* MyoKit.framework in Frameworks */,
+				52608D6B1ACEDA3000AC5ED1 /* CoreBluetooth.framework in Frameworks */,
+				52608D691ACEDA2A00AC5ED1 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52608D531ACEC60100AC5ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52608D341ACEC60100AC5ED1 = {
+			isa = PBXGroup;
+			children = (
+				52608D3F1ACEC60100AC5ED1 /* Myo-Arduino-Car */,
+				52608D591ACEC60100AC5ED1 /* Myo-Arduino-CarTests */,
+				52608D3E1ACEC60100AC5ED1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52608D3E1ACEC60100AC5ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52608D3D1ACEC60100AC5ED1 /* Myo-Arduino-Car.app */,
+				52608D561ACEC60100AC5ED1 /* Myo-Arduino-CarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52608D3F1ACEC60100AC5ED1 /* Myo-Arduino-Car */ = {
+			isa = PBXGroup;
+			children = (
+				52608D6C1ACEDA3B00AC5ED1 /* Frameworks */,
+				52608D441ACEC60100AC5ED1 /* AppDelegate.h */,
+				52608D451ACEC60100AC5ED1 /* AppDelegate.m */,
+				52608D471ACEC60100AC5ED1 /* ViewController.h */,
+				52608D481ACEC60100AC5ED1 /* ViewController.m */,
+				52608D4A1ACEC60100AC5ED1 /* Main.storyboard */,
+				52608D4D1ACEC60100AC5ED1 /* Images.xcassets */,
+				52608D4F1ACEC60100AC5ED1 /* LaunchScreen.xib */,
+				52608D401ACEC60100AC5ED1 /* Supporting Files */,
+			);
+			path = "Myo-Arduino-Car";
+			sourceTree = "<group>";
+		};
+		52608D401ACEC60100AC5ED1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52608D411ACEC60100AC5ED1 /* Info.plist */,
+				52608D421ACEC60100AC5ED1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52608D591ACEC60100AC5ED1 /* Myo-Arduino-CarTests */ = {
+			isa = PBXGroup;
+			children = (
+				52608D5C1ACEC60100AC5ED1 /* Myo_Arduino_CarTests.m */,
+				52608D5A1ACEC60100AC5ED1 /* Supporting Files */,
+			);
+			path = "Myo-Arduino-CarTests";
+			sourceTree = "<group>";
+		};
+		52608D5A1ACEC60100AC5ED1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52608D5B1ACEC60100AC5ED1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52608D6C1ACEDA3B00AC5ED1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52608D6D1ACEDB4200AC5ED1 /* MyoKit.framework */,
+				52608D6A1ACEDA3000AC5ED1 /* CoreBluetooth.framework */,
+				52608D681ACEDA2A00AC5ED1 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52608D3C1ACEC60100AC5ED1 /* Myo-Arduino-Car */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52608D601ACEC60100AC5ED1 /* Build configuration list for PBXNativeTarget "Myo-Arduino-Car" */;
+			buildPhases = (
+				52608D391ACEC60100AC5ED1 /* Sources */,
+				52608D3A1ACEC60100AC5ED1 /* Frameworks */,
+				52608D3B1ACEC60100AC5ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Myo-Arduino-Car";
+			productName = "Myo-Arduino-Car";
+			productReference = 52608D3D1ACEC60100AC5ED1 /* Myo-Arduino-Car.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52608D551ACEC60100AC5ED1 /* Myo-Arduino-CarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52608D631ACEC60100AC5ED1 /* Build configuration list for PBXNativeTarget "Myo-Arduino-CarTests" */;
+			buildPhases = (
+				52608D521ACEC60100AC5ED1 /* Sources */,
+				52608D531ACEC60100AC5ED1 /* Frameworks */,
+				52608D541ACEC60100AC5ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52608D581ACEC60100AC5ED1 /* PBXTargetDependency */,
+			);
+			name = "Myo-Arduino-CarTests";
+			productName = "Myo-Arduino-CarTests";
+			productReference = 52608D561ACEC60100AC5ED1 /* Myo-Arduino-CarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52608D351ACEC60100AC5ED1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Jonathan Querubina";
+				TargetAttributes = {
+					52608D3C1ACEC60100AC5ED1 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = P2S9KUTQPH;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					52608D551ACEC60100AC5ED1 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 52608D3C1ACEC60100AC5ED1;
+					};
+				};
+			};
+			buildConfigurationList = 52608D381ACEC60100AC5ED1 /* Build configuration list for PBXProject "Myo-Arduino-Car" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52608D341ACEC60100AC5ED1;
+			productRefGroup = 52608D3E1ACEC60100AC5ED1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52608D3C1ACEC60100AC5ED1 /* Myo-Arduino-Car */,
+				52608D551ACEC60100AC5ED1 /* Myo-Arduino-CarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52608D3B1ACEC60100AC5ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52608D4C1ACEC60100AC5ED1 /* Main.storyboard in Resources */,
+				52608D511ACEC60100AC5ED1 /* LaunchScreen.xib in Resources */,
+				52608D4E1ACEC60100AC5ED1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52608D541ACEC60100AC5ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52608D391ACEC60100AC5ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52608D491ACEC60100AC5ED1 /* ViewController.m in Sources */,
+				52608D461ACEC60100AC5ED1 /* AppDelegate.m in Sources */,
+				52608D431ACEC60100AC5ED1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52608D521ACEC60100AC5ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52608D5D1ACEC60100AC5ED1 /* Myo_Arduino_CarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52608D581ACEC60100AC5ED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52608D3C1ACEC60100AC5ED1 /* Myo-Arduino-Car */;
+			targetProxy = 52608D571ACEC60100AC5ED1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52608D4A1ACEC60100AC5ED1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52608D4B1ACEC60100AC5ED1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52608D4F1ACEC60100AC5ED1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52608D501ACEC60100AC5ED1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52608D5E1ACEC60100AC5ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52608D5F1ACEC60100AC5ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52608D611ACEC60100AC5ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Myo-Arduino-Car",
+				);
+				INFOPLIST_FILE = "Myo-Arduino-Car/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52608D621ACEC60100AC5ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Myo-Arduino-Car",
+				);
+				INFOPLIST_FILE = "Myo-Arduino-Car/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52608D641ACEC60100AC5ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Myo-Arduino-CarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Myo-Arduino-Car.app/Myo-Arduino-Car";
+			};
+			name = Debug;
+		};
+		52608D651ACEC60100AC5ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Myo-Arduino-CarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Myo-Arduino-Car.app/Myo-Arduino-Car";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52608D381ACEC60100AC5ED1 /* Build configuration list for PBXProject "Myo-Arduino-Car" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52608D5E1ACEC60100AC5ED1 /* Debug */,
+				52608D5F1ACEC60100AC5ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52608D601ACEC60100AC5ED1 /* Build configuration list for PBXNativeTarget "Myo-Arduino-Car" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52608D611ACEC60100AC5ED1 /* Debug */,
+				52608D621ACEC60100AC5ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52608D631ACEC60100AC5ED1 /* Build configuration list for PBXNativeTarget "Myo-Arduino-CarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52608D641ACEC60100AC5ED1 /* Debug */,
+				52608D651ACEC60100AC5ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52608D351ACEC60100AC5ED1 /* Project object */;
+}
